@@ -18,6 +18,10 @@ ul{
 
 }
 
+.new
+{
+    size: auto;
+}
 ul li{
     display: inline-block;
 }
@@ -86,6 +90,7 @@ margin: auto;
     line-height: 30px;
     font-family: 'Great Vibes',cursive;
     text-align: center;
+<<<<<<< HEAD
 
 }
 
@@ -99,3 +104,10 @@ margin: auto;
     text-align: center;
 }
 
+=======
+}
+
+.dateone{
+    float: center;
+}
+>>>>>>> 8f46dc36c48ff885a9c3fca467ce325a9b2abee8
