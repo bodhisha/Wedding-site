@@ -3,8 +3,9 @@
     padding: 0;
     font-family:Century Gothic;
 }
+section{width: 100%;height: 1000px; float: left;}
 header{
-    background-image: url(../img1.jpg);
+    background-image:url(/page2\ back.png);
     height: 100vh;
     background-size: cover;
     background-position: center;
@@ -17,6 +18,10 @@ ul{
 
 }
 
+.new
+{
+    size: auto;
+}
 ul li{
     display: inline-block;
 }
@@ -32,4 +37,61 @@ ul li a{
 ul li a :hover{
     background-color: rgb(248, 8, 8);
     color: #000;
+}
+.main{
+max-width: 1200px;
+margin: auto;
+}
+.title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%)
+}
+.title h1{
+    color: #96327D;
+    font-size: 145px;
+    font-weight: 600;
+    line-height: 90px;
+    font-family: 'Great Vibes',cursive;
+    display: block;
+    height: 48px;
+    margin-block-end: 11px;
+    margin-bottom: 11px;
+    text-align: center;
+    text-size-adjust: 100%;
+
+}
+.title h4{
+    color: #96327D;
+    font-size: 70px;
+    font-weight: 400;
+    line-height: 140px;
+    font-family: 'Great Vibes',cursive;
+    display: block;
+    height: 75px;
+    margin-block-end: 57px;
+    margin-bottom: 57px;
+    text-align: center;
+    text-size-adjust: 100%;
+    
+}
+/*.date {
+	position: relative;
+}*/
+
+
+.date h3 {
+	margin: 0;
+	font-size: 33px;
+    font-weight: 700;
+    color: #96327D;
+    display: block;
+    line-height: 30px;
+    font-family: 'Great Vibes',cursive;
+    text-align: center;
+}
+
+.dateone{
+    float: center;
 }
